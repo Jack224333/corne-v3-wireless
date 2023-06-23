@@ -18,7 +18,8 @@
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | enter  |
 //                    | Win | LWR | SPC |   | SPC | RSE  | ALT |
-                        bindings = <
+layer = "Base";                       
+bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp DEL
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RET
@@ -31,7 +32,8 @@
 // | Caps Lock| F1  | F2 | F3 |F4| F5  |   |     |  UP |     |     |     |      |
 // | SHFT | BT1|  BT2 |  BT3| BT4  | BT5|  | LFT | DWN | RGT |     |    |     |
 //                    | GUI |  | SPC| | ENT |  BTreset   | ALT |
-                        bindings = <
+layer = "Lower";                        
+bindings = <
    &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &kp CAPS &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &trans   &kp UP   &trans &trans &trans &trans
    &kp LSHFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3      &bt BT_SEL 4      &kp LEFT   &kp DOWN   &kp RIGHT &trans   &trans  &trans
@@ -45,7 +47,8 @@
 // | PAGEDOWN |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
+layer = "Raise";                        
+bindings = <
    &kp  PAGE_UP  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &kp PAGE_DOWN &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
